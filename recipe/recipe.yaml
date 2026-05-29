@@ -1,5 +1,5 @@
 context:
-  version: "1.94.2"
+  version: "1.95.0"
 
 package:
   name: exoscale-cli
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/exoscale/cli/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 96476bd99ebc33b3da39355cbb2f32814285a814a15cb4813eae7c52514cf8cb
+  sha256: 67215f69682ffefcf8f6209c1dda75e6b0fd8633565c9176b4adefea43c85709
   target_directory: src
 
 build:
